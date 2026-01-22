@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Искать дешевле",
+  "version": "1.0",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {}
+}

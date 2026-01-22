@@ -1,0 +1,37 @@
+#cheap-finder-modal {
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.cf-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.cf-close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.cf-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  background: #4285f4;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
